@@ -1,0 +1,99 @@
+.main{
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left{
+  flex: 1;
+  background: var(--background-left);
+  display: flex;
+}
+
+img.mount{
+  position: fixed;
+  bottom: 0;
+  width: calc(1280px/2); 
+ 
+}
+
+.left > img.men{
+  position: fixed;
+  left: calc(1080px /4);
+  top: calc(100vh /4);
+}
+
+.left > img.ball{
+  position: fixed;
+  left: calc(1080px /4);
+  top: calc(100vh /2.5);
+}
+
+.rigth{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--background-rigth);
+}
+
+.rigth main.content{
+  z-index: 1;
+  padding: 0 8vh;
+}
+
+main.content > h1 {
+  margin-bottom: 8vh;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 28px;
+}
+.form > input + label{
+  margin-top: 2rem;
+}
+
+.form > button{
+  background: #181818;
+  color: var(--background-rigth);
+  border-radius: 5px;
+  padding: 2vh;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options > span{
+  margin: 2rem 0;
+}
+
+.options > a{
+  color: #806966;
+}
+
+.btn{
+  background: var(--background-left);
+  border: none;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
