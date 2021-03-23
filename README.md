@@ -1,3 +1,9 @@
+## Resultado Obtido
+![Captura de tela de 2021-03-22 20-02-56](https://user-images.githubusercontent.com/57879592/112073428-fdc15700-8b6b-11eb-8709-9939e2665001.png)
+
+## Clone do figma
+https://www.figma.com/file/Ms3T7SgvvCXRdCvUvHhoMc/Login?node-id=1%3A53
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
